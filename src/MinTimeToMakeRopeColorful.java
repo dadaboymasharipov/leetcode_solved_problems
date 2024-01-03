@@ -20,8 +20,4 @@ public class MinTimeToMakeRopeColorful {
 
         return result;
     }
-
-    public static void main(String[] args) {
-        System.out.println(new MinTimeToMakeRopeColorful().minCost("bbbaaa", new int[]{4,9,3,8,8,9}));
-    }
 }

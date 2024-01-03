@@ -17,14 +17,4 @@ public class MakeAllStringsEqual {
         }
         return true;
     }
-
-    public static void main(String[] args) {
-        System.out.println(new MakeAllStringsEqual().makeEqual(new String[]{"aabc", "abc", "bc"}));
-        System.out.println(new MakeAllStringsEqual().makeEqual(new String[]{"aabc", "abc", "bc", ""}));
-        System.out.println(new MakeAllStringsEqual().makeEqual(new String[]{"aabc", "abc", "bcc"}));
-        System.out.println(new MakeAllStringsEqual().makeEqual(new String[]{"aabc", "bc"}));
-        System.out.println(new MakeAllStringsEqual().makeEqual(new String[]{"aaaa", "bbbb"}));
-        System.out.println(new MakeAllStringsEqual().makeEqual(new String[]{"bbbbb", "aaaaa", "ccccc"}));
-        System.out.println(new MakeAllStringsEqual().makeEqual(new String[]{"abs", "xyz", "hui"}));
-    }
 }

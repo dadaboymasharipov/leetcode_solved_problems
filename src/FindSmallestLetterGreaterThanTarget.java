@@ -23,8 +23,4 @@ public class FindSmallestLetterGreaterThanTarget {
         return letters[1];
     }
 
-    public static void main(String[] args) {
-        System.out.println(
-                new FindSmallestLetterGreaterThanTarget().nextGreatestLetter("aaaaaaaaabbbbbbbbbbbbbx".toCharArray(), 'y'));
-    }
 }

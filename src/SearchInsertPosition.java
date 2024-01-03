@@ -30,8 +30,4 @@ public class SearchInsertPosition {
 
         return position;
     }
-
-    public static void main(String[] args) {
-        System.out.println(new SearchInsertPosition().searchInsert(new int[]{1,3,5,6}, 5));
-    }
 }
