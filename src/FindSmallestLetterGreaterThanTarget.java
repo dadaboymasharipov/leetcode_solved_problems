@@ -11,7 +11,7 @@ public class FindSmallestLetterGreaterThanTarget {
             int mid = low + (high - low) / 2;
             if (mid + 1 < letters.length){
                 if (letters[mid] < target && letters[mid + 1] > target)
-                    return letters[mid];
+                    return letters[mid + 1];
             }
             if (letters[mid] < target){
                 low = mid + 1;
