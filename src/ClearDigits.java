@@ -33,7 +33,6 @@ public class ClearDigits {
         return result;
     }
 
-    public static void main(String[] args) {
-        new ClearDigits().clearDigits("a8f");
-    }
+    public static void main(String[] args) {}
+
 }
