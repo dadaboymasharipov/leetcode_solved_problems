@@ -10,7 +10,7 @@ public class ClearDigits {
     3174. Clear Digits
     --------------------
     time: 5ms
-    rating: 11.79%
+    beates: 11.79%
      */
 
     @Solved(EASY)

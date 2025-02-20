@@ -7,8 +7,8 @@ public class AddTwoNumbers {
     /*
     2. Add Two Numbers
     ----------------
-    time: 5ms
-    rating: 11.79%
+    time: 1ms
+    rating: 100%
     */
 
     @Unsolved(MEDIUM)
