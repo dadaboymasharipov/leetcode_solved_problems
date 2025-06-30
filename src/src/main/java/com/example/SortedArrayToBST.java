@@ -1,3 +1,5 @@
+package com.example;
+
 public class SortedArrayToBST {
 
     public TreeNode sortedArrayToBST(int[] nums) {

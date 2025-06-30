@@ -1,3 +1,5 @@
+package com.example;
+
 public class NumberOfLaserBeams {
 
     public int numberOfBeams(String[] bank) {

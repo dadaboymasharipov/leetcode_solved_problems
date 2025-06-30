@@ -1,9 +1,9 @@
-import annotations.Solved;
+package com.example;
+
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static annotations.enums.Status.MEDIUM;
 
 public class LongestSubstringWithoutRepeatingCharacters {
 
@@ -14,7 +14,7 @@ public class LongestSubstringWithoutRepeatingCharacters {
     beats:89.20%
     */
 
-    @Solved(MEDIUM)
+
     public static int lengthOfLongestSubstring(String s) {
         int max = 0;
         List<Character> list = new ArrayList<>(s.length());

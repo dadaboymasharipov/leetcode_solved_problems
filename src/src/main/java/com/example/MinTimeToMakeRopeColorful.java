@@ -1,3 +1,5 @@
+package com.example;
+
 public class MinTimeToMakeRopeColorful {
     public int minCost(String colors, int[] neededTime) {
         int result = 0;

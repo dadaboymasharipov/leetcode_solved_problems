@@ -1,8 +1,6 @@
-import annotations.Solved;
+package com.example;
 
 import java.util.List;
-
-import static annotations.enums.Status.EASY;
 
 public class ClearDigits {
 
@@ -13,7 +11,7 @@ public class ClearDigits {
     beates: 11.79%
      */
 
-    @Solved(EASY)
+     
     public String clearDigits(String s) {
         List<Character> digits = List.of('0', '1', '2', '3', '4', '5', '6', '7', '8', '9');
         boolean hasDigit = false;

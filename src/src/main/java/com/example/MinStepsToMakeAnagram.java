@@ -1,3 +1,5 @@
+package com.example;
+
 public class MinStepsToMakeAnagram {
 
     public int minSteps(String s, String t) {

@@ -1,6 +1,4 @@
-import annotations.Unsolved;
-
-import static annotations.enums.Status.MEDIUM;
+package com.example;
 
 public class AddTwoNumbers {
 
@@ -11,7 +9,7 @@ public class AddTwoNumbers {
     rating: 100%
     */
 
-    @Unsolved(MEDIUM)
+     
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         int val = 0;
         int r = 0;

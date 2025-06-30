@@ -1,7 +1,4 @@
-import annotations.Solved;
-import annotations.enums.Status;
-
-import static annotations.enums.Status.EASY;
+package com.example;
 
 public class RemoveDuplicatesFromArray {
 
@@ -12,7 +9,7 @@ public class RemoveDuplicatesFromArray {
     rating: 66.57%
      */
 
-    @Solved(EASY)
+
     public static int removeDuplicates(int[] nums) {
         if (nums.length == 1) {
             return 1;
